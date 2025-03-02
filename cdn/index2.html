@@ -1,34 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
-    <link rel="stylesheet" href="styles.css">
-    <script>
-        // Mengukur waktu awal permintaan
-        var startTime = performance.now();
-
-        window.onload = function() {
-            // Mengukur waktu akhir ketika halaman selesai memuat
-            var endTime = performance.now();
-            var roundTripTime = endTime - startTime;
-
-            // Tampilkan round-trip time di halaman
-            document.getElementById('time').innerText = "Round-Trip Response Time: " + roundTripTime.toFixed(2) + " ms";
-        }
-    </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CDN Test</title>
 </head>
 <body>
-    <div class="container">
-        <div id="time" style="margin-top: 20px; font-size: 16px;"></div>
-        <a class="a" href=""><i>Try again</i></a>
-    </div>
-    <img src="https://www.example.com/images/large-image.jpg" alt="Large Image">
-    <video controls>
-        <source src="https://www.example.com/videos/large-video.mp4" type="video/mp4">
-    </video>
-    <hr>
+	<h1>Gambar sebelum menggunakan CDN</h1>
+    <img src="https://github.com/milaa-wee/my-website/blob/main/What-is-CDN.jpg">
+
     <a style="margin-left: 110px;" href="index3.html">Kembali</a>
+
 </body>
 </html>
+
