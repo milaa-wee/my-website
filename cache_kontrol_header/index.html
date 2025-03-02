@@ -3,39 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Example 1 - No Expires</title>
-    <link rel="stylesheet" href="styles.css">
-    <script>
-        // Mengukur waktu awal permintaan
-        var startTime = performance.now();
-
-        window.onload = function() {
-            // Mengukur waktu akhir ketika halaman selesai memuat
-            var endTime = performance.now();
-            var roundTripTime = endTime - startTime;
-
-            // Tampilkan round-trip time di halaman
-            document.getElementById('time').innerText = "Round-Trip Response Time: " + roundTripTime.toFixed(2) + " ms";
-        }
-    </script>
+    <title>Tugas Rekayasa Web Lanjut</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="navbar">
-        <h1>High Performance Web Sites</h1>
+        <h1>Rule 3</h1>
     </div>
     <div class="container">
-        <div id="time" style="margin-top: 20px; font-size: 16px;"></div>
-        <a class="a" href=""><i>Try again</i></a>
+		<h1>Expires and Cache-Control Header</h1>
+		
+		<li><a href="Comp_Expiredand.html">Expires and Cache Control</a></li>
     </div>
-    <div class="cont">
-        <p>
-            This example contains six images, three scripts and one stylesheet that do <em>not</em> have a far future Expires header.<sup>1</sup> 
-            Load the page several times using the "try it again" link and compare the response time to 
-            <a href="#">Example 2 - Far Future Expires</a>. This example is slower because it has to make ten additional HTTP requests.
-        </p>
-        <p class="footnote">
-    </div>
-    <hr>
-    <a style="margin-left: 110px;" href="../index.html">Kembali</a>
-</body>
+	<p>
+        <a style="margin-left: 110px;" href="../index.html">Kembali</a>
+    </body>
 </html>
