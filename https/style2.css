@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image {
+    width: 230px;
+    height: 230px;
+    margin: 10px;
+    background-image: url('css_sprites.png');
+    background-repeat: no-repeat;
+    border: 1px solid black;
+}
+
+/* Atur posisi masing-masing gambar dari sprite */
+.image1 { background-position: -1 0; }
+.image2 { background-position: -1px 0; }
+.image3 { background-position: -250px 0; }
+.image4 { background-position: -250px 0; }
+.image5 { background-position: -500px 0; }
+.image6 { background-position: -500px 0; }
+.image7 { background-position: -750px 0; }
+.image8 { background-position: -980px 0; }
+.image9 { background-position: -980px 0; }
+.image10 { background-position: -980px 0; }
+
+
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Jarak antara div time dan link */
+    margin-bottom: 10px;
+}
+
+#time {
+    margin: 0; /* Menghilangkan margin default */
+    font-size: 16px;
+}
+
+.container a {
+    margin-top: 20px;
+    font-size: 16px;
+}

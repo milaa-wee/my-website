@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="https://cdn.example.com/styles.css">
+    <script>
+        // Mengukur waktu awal permintaan
+        var startTime = performance.now();
+
+        window.onload = function() {
+            // Mengukur waktu akhir ketika halaman selesai memuat
+            var endTime = performance.now();
+            var roundTripTime = endTime - startTime;
+
+            // Tampilkan round-trip time di halaman
+            document.getElementById('time').innerText = "Round-Trip Response Time: " + roundTripTime.toFixed(2) + " ms";
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div id="time" style="margin-top: 20px; font-size: 16px;"></div>
+        <a class="a" href=""><i>Try again</i></a>
+    </div>
+    <img src="https://cdn.example.com/images/large-image.jpg" alt="Large Image">
+    <video controls>
+        <source src="https://cdn.example.com/videos/large-video.mp4" type="video/mp4">
+    </video>
+    <hr>
+    <a style="margin-left: 110px;" href="index3.html">Kembali</a>
+</body>
+</html>

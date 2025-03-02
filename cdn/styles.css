@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0px;
+    color: #333;
+}
+
+.cont {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Jarak antara div time dan link */
+    margin-bottom: 10px;
+    margin-left: 105px;
+}
+
+#time {
+    margin: 0; /* Menghilangkan margin default */
+    font-size: 16px;
+}
+
+.container a {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.response-time {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.response-time a {
+    font-size: 14px;
+    color: purple;
+    margin-left: 5px;
+    text-decoration: underline;
+}
+
+.navbar {
+    background-color: #008080;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 29px;
+}
+
+.navbar h1 {
+    margin: 0;
+    font-size: 24px;
+    padding-left: 80px;
+}
+
+p {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.footnote {
+    font-size: 12px;
+    color: #555;
+    margin-top: 30px;
+}
+
+a {
+    color: purple;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+em {
+    font-style: italic;
+}
